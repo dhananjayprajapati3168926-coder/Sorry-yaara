@@ -216,7 +216,7 @@ function playTapSound() {
     );
 
     gain.gain.exponentialRampToValueAtTime(
-        0.12,
+        0.20,
         now + 0.015
     );
 
