@@ -769,3 +769,14 @@ finishButton.addEventListener(
 
     }
 );
+/* =====================================================
+   LOVE BGM ❤️
+===================================================== */
+
+const loveBGM = new Audio(
+    "love-bgm.mp3"
+);
+
+loveBGM.loop = true;
+
+loveBGM.volume = 0.25;
