@@ -403,6 +403,10 @@ openButton.addEventListener(
 
         playTapSound();
 
+        loveBGM.currentTime = 0;
+        loveBGM.volume = 1;
+        loveBGM.play();
+
 
         /* Button press animation */
 
