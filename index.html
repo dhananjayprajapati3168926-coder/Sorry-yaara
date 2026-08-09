@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>For Sweta ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- =========================================
+         BACKGROUND
+    ========================================== -->
+
+    <div id="stars"></div>
+
+    <div class="moon"></div>
+
+
+    <!-- =========================================
+         SCENE 1
+    ========================================== -->
+
+    <main id="introScreen" class="screen">
+
+        <div class="intro-content">
+
+            <p class="small-text">
+                Hey, Sweta...
+            </p>
+
+
+            <h1>
+                I made something<br>
+                <span>for you.</span>
+            </h1>
+
+
+            <p class="sub-text">
+                Just give me one minute.
+            </p>
+
+
+            <button
+                id="openButton"
+                class="glow-button">
+
+                🌙 TAP TO OPEN
+
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         SCENE 2
+    ========================================== -->
+
+    <main
+        id="apologyScreen"
+        class="screen hidden">
+
+        <div class="intro-content">
+
+            <p
+                id="apologySmall"
+                class="small-text">
+            </p>
+
+
+            <h1
+                id="apologyTitle">
+            </h1>
+
+
+            <p
+                id="apologyText"
+                class="sub-text">
+            </p>
+
+
+            <button
+                id="apologyNext"
+                class="glow-button">
+
+                TAP TO CONTINUE
+
+            </button>
+
+        </div>
+
+    </main>
+
+        <!-- =========================================
+         SWEET FRIEND SCENE
+    ========================================== -->
+
+    <main
+        id="friendScreen"
+        class="screen hidden">
+
+        <div class="intro-content">
+
+            <p
+                id="friendSmall"
+                class="small-text">
+                One more thing...
+            </p>
+
+
+            <h1
+                id="friendTitle">
+                You're my<br>
+                <span>sweetest friend.</span>
+            </h1>
+
+
+            <p
+                id="friendText"
+                class="sub-text">
+
+                Aur shayad isi liye,
+                Apka mujhse ruthha hua
+                dekhna hmko bilkul achha nahi lagta.
+
+            </p>
+
+
+            <button
+                id="friendNext"
+                class="glow-button">
+
+                TAP TO CONTINUE
+
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         ARE YOU STILL ANGRY?
+    ========================================== -->
+
+    <main
+        id="questionScreen"
+        class="screen hidden">
+
+        <div class="intro-content">
+
+            <p class="small-text">
+                Be honest with me...
+            </p>
+
+
+            <h1>
+                Are you still<br>
+                <span>angry with me?</span>
+            </h1>
+
+
+            <p class="sub-text">
+                You can tell me honestly.
+            </p>
+
+
+            <div class="choice-container">
+
+                <button
+                    id="angryButton"
+                    class="choice-button">
+
+                    😤 YES
+
+                </button>
+
+
+                <button
+                    id="littleAngryButton"
+                    class="choice-button">
+
+                    🥺 A LITTLE
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         RESPONSE SCREEN
+    ========================================== -->
+
+    <main
+        id="responseScreen"
+        class="screen hidden">
+
+        <div class="intro-content">
+
+            <p
+                id="responseSmall"
+                class="small-text">
+            </p>
+
+
+            <h1
+                id="responseTitle">
+            </h1>
+
+
+            <p
+                id="responseText"
+                class="sub-text">
+            </p>
+
+
+            <button
+                id="responseNext"
+                class="glow-button">
+
+                ONE LAST THING ❤️
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- =========================================
+     FINAL NIGHT SCENE
+========================================== -->
+
+<main
+    id="finalScreen"
+    class="screen hidden">
+
+    <!-- Floating hearts will be created here -->
+    <div id="heartContainer"></div>
+
+    <div class="final-content">
+
+        <p class="small-text final-small">
+            One last thing...
+        </p>
+
+
+        <h1 class="final-title">
+
+            Please listen<br>
+            <span>to this one.</span>
+
+        </h1>
+
+
+        <p class="final-subtitle">
+
+            No excuses.<br>
+            No explanations.
+
+        </p>
+
+
+        <button
+            id="letterButton"
+            class="glow-button">
+
+            💌 READ MY HEART
+
+        </button>
+
+    </div>
+
+</main>
+
+
+<!-- =========================================
+     FINAL LETTER
+========================================== -->
+
+<main
+    id="letterScreen"
+    class="screen hidden">
+
+    <div class="letter-wrapper">
+
+        <div class="letter-card">
+
+            <div class="letter-top">
+
+                <span>For Sweta</span>
+
+                <span>❤️</span>
+
+            </div>
+
+
+            <div class="letter-body">
+
+                <p class="letter-greeting">
+                    Dear Sweta,
+                </p>
+
+
+                <p>
+                    ye thoda jyada acting lag ra hoga na,
+                    par kya kre bestie jo ruthi hai...aise thodi manegi
+                </p> 
+                <p>    
+                    I know hm
+                    chhoti si baat par gussa ho gaye the.
+                </p>
+
+                <p>
+                    Aur hmko aisa nahi karna chahiye tha.
+                    Pta nhi kbhi kbhi bewkoofi kr dete hain
+                </p>
+
+                <p>
+                    Apke saath hmko 
+                    patiently behave karna chahiye tha.
+                </p>
+
+                <p class="letter-highlight">
+                    Galti meri thi.
+                </p>
+
+                <p>
+                
+                    Hm dono to sabse sweet dost hain na.
+                    Sabse pyaare.
+                </p>
+
+                <p>
+                    Isliye aapko mujhse
+                    rootha hua dekhna mujhe
+                    bilkul achha nahi lagta.
+                </p>
+
+                <p>
+                    Hm ye expect bhi nahi karte ki
+                    sirf ek "sorry" bolne se
+                    aap turant hmko maaf kar do.
+                    aap bestie hain tbhi to gussate hain.
+                    jb bhi meri bestie itti si me ruth jayegi
+                    hm unhe atnaaa saara pyaar deke mana lenge🤗🥰
+            
+                </p>
+                
+                </p>
+                    Chaliye ab gussa thukiye, aur smile kijiye
+                    bilkul aise 😊😊
+                </p>
+
+                <p>
+                    acha suniye...
+                </p>
+
+
+                <p class="letter-highlight">
+                    jab apka gussa thoda kam ho jaye,
+                    apne DK se ek baar phir baat kar lijiyega.
+
+                </p>
+
+
+                <p class="letter-final">
+                    I'm genuinely sorry, Sweta. ❤️
+                </p>
+
+
+                <p class="letter-sign">
+                    — DK ❤️
+                </p>
+
+            </div>
+
+
+            <button
+                id="finishButton"
+                class="letter-button">
+
+                I UNDERSTAND ❤️
+
+            </button>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<!-- =========================================
+     VERY FINAL SCREEN
+========================================== -->
+
+<main
+    id="endScreen"
+    class="screen hidden">
+
+    <div class="end-content">
+
+        <div class="end-heart">
+            ♡
+        </div>
+
+
+        <p class="small-text">
+            That's all I wanted to say.
+        </p>
+
+
+        <h1 class="end-title">
+
+            I'm sorry,<br>
+            <span>Sweta.</span>
+
+        </h1>
+
+
+        <p class="end-text">
+
+            I hope my sweetest friend
+            isn't angry with her DK forever. 🥺
+
+        </p>
+
+
+        <div class="end-signature">
+
+            — DK ❤️
+
+        </div>
+
+    </div>
+
+</main>
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
