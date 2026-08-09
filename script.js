@@ -779,4 +779,4 @@ const loveBGM = new Audio(
 
 loveBGM.loop = true;
 
-loveBGM.volume = 0.25;
+loveBGM.volume = 50;
